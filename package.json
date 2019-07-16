@@ -1,25 +1,17 @@
 {
-  "name": "friend-finder",
+  "name": "friendfinder",
   "version": "1.0.0",
-  "description": "An app used to find you a friend based on questions.  Requires a name and photo aswell.",
+  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node server.js"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/AHennesen/friend-finder.git"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/AHennesen/friend-finder/issues"
-  },
-  "homepage": "https://github.com/AHennesen/friend-finder#readme",
   "dependencies": {
-    "body-parser": "^1.19.0",
-    "express": "^4.16.4",
-    "path": "^0.12.7"
+    "express": "^4.16.3"
+  },
+  "engines": {
+    "node": "5.3.0"
   }
 }
