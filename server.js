@@ -1,6 +1,5 @@
 var express = require("express");
 var path = require("path");
-var bodyParser = require('body-parser')
 
 // tells node that we are created an express server
 var app = express();
